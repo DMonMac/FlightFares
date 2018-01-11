@@ -14,12 +14,12 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">FlightFares</h1>
         </header>
-        <p className="App-intro">
             <div>
               Searcher Component:
               <div>
                 From | To | Depart | Return | PAX | Econ/Business
               </div>
+              <input/><input/><input/><input/><input/><input/>
             </div>
             <div style={roughStyles}>
               Results Component:
@@ -36,7 +36,6 @@ class App extends Component {
               </div>
 
             </div>
-        </p>
       </div>
     );
   }
